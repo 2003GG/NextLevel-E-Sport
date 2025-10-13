@@ -862,3 +862,6 @@ body {
     grid-template-columns: 1fr;
   }
 }
+a:hover{
+  color: chartreuse;
+}

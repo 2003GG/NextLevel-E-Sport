@@ -3,22 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NextLevel E-Sport - Rejoignez la compétition</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>News</title>
+  <link rel="stylesheet" href="inscri_tour/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
    Header 
-  <header class="header">
+   <header class="header">
     <div class="container">
       <div class="header-content">
         <div class="logo">
-          <span class="logo-text">NextLevel</span>
-          <span class="logo-accent">E-Sport</span>
+           <a href="index.html" class="nav-link">
+              <span class="logo-text">NextLevel</span>
+              <span class="logo-accent">E-Sport</span>
+           </a>
         </div>
         <nav class="nav">
+          <a href="index.html" class="nav-link">Accueil </a>
           <a href="tournaments.html" class="nav-link">Tournois</a>
           <a href="teams.html" class="nav-link">Équipes</a>
           <a href="news.html" class="nav-link">Actualités</a>
@@ -28,7 +31,7 @@
     </div>
   </header>
 
-  News Section 
+  <!-- News Section  -->
   <section id="news" class="section">
     <div class="container">
       <div class="section-header">
@@ -36,7 +39,7 @@
         <p class="section-description">Restez informé des dernières nouvelles</p>
       </div>
       <div class="news-grid">
-         News Card 1 
+         <!-- News Card 1  -->
         <div class="news-card">
           <div class="news-image">
             <img src="public/esport-prize-pool-announcement-with-pink-lights.jpg" alt="Nouveau tournoi">
@@ -60,7 +63,7 @@
           </div>
         </div>
 
-         News Card 2 
+         <!-- News Card 2  -->
         <div class="news-card">
           <div class="news-image">
             <img src="public/esport-team-celebration-with-purple-neon.jpg" alt="Phoenix Rising">
@@ -84,7 +87,7 @@
           </div>
         </div>
 
-         News Card 3 
+         <!-- News Card 3  -->
         <div class="news-card">
           <div class="news-image">
             <img src="public/esport-gaming-arena-with-neon-lights-and-competiti.jpg" alt="Mise à jour">
@@ -107,6 +110,33 @@
             </a>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-card">
+        <div class="newsletter-content">
+          <h2 class="newsletter-title">Restez connecté</h2>
+          <p class="newsletter-description">
+            Inscrivez-vous à notre newsletter pour recevoir les dernières actualités, annonces de tournois et offres exclusives.
+          </p>
+        </div>
+        <form class="newsletter-form">
+      <div>
+          <input type="text" placeholder="username" class="newsletter-input" required>
+          <input type="email" placeholder="Votre adresse email" class="newsletter-input" required>
+      </div>
+          <input type="reset" class="newsletter-button"> 
+          <button type="submit" class="newsletter-button">
+           
+            <span>S'abonner</span>
+            <svg class="button-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
   </section>
