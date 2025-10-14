@@ -883,17 +883,23 @@ a:hover{
   
   background-position : center;
   background-repeat: no-repeat;
-  /* object-fit:cover; */
+  object-fit:cover;
   background-size: cover;
   
 
  }
  .mortal_kombat_background{
-    background-image: url(../public/);
+    background-image: url(../public/Mortal\ Kombat.jpg);
   
   background-position : center;
   background-repeat: no-repeat;
   object-fit:cover;
   background-size: cover;
 
+ }
+ .information{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
  }
