@@ -865,3 +865,35 @@ body {
 a:hover{
   color: chartreuse;
 }
+
+/* .Championship-s__body{
+  background-image: url(../inscri_tour/public/esport-championship-finals-highlights-with-blue-li.jpg);
+  background-attachment: fixed;
+} */
+ .fifa_background{
+  background-image: url(../public/fifa.jpg);
+  /* background-attachment: fixed;  */
+  background-position : center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size: cover;
+ }
+ .pes_background{
+   background-image: url(../public/pes001.jpg);
+  
+  background-position : center;
+  background-repeat: no-repeat;
+  /* object-fit:cover; */
+  background-size: cover;
+  
+
+ }
+ .mortal_kombat_background{
+    background-image: url(../public/);
+  
+  background-position : center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size: cover;
+
+ }
