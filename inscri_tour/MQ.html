@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="description" content="Major Qualifiers">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -29,44 +30,46 @@
       </div>
     </div>
   </header>
+  <div class="major__background">
 
-  <section class="newsletter-section">
-    <div class="container">
-      <div class="newsletter-card">
-        <div class="newsletter-content">
-          <h2 class="newsletter-title">Major Qualifications</h2>
-          <!-- <p class="newsletter-description">
-            Inscrivez-vous à notre newsletter pour recevoir les dernières actualités, annonces de tournois et offres exclusives.
-          </p> -->
-        </div>
-        <form class="newsletter-form">
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-card">
+          <div class="newsletter-content">
+            <h2 class="newsletter-title">Major Qualifications</h2>
+            <!-- <p class="newsletter-description">
+              Inscrivez-vous à notre newsletter pour recevoir les dernières actualités, annonces de tournois et offres exclusives.
+            </p> -->
+          </div>
+          <form class="newsletter-form">
             <div>
-                <label>username</label>
-          <input type="text" placeholder="username" class="newsletter-input" required>
+              <label>username</label>
+              <input type="text" placeholder="username" class="newsletter-input" required>
+            </div>
+            <div>
+              <label>age</label>
+              <input type="number" placeholder="age" min="18" max="40" class="newsletter-input">
+            </div>
+            <div>
+              <label>email</label>
+              <input type="email" placeholder="Votre adresse email" class="newsletter-input" required>
+            </div>
           </div>
           <div>
-          <label>age</label>
-          <input type="number" placeholder="age" min="18" max="40" class="newsletter-input">
-          </div>
-          <div>
-          <label>email</label>
-          <input type="email" placeholder="Votre adresse email" class="newsletter-input" required>
-          </div>
-          </div>
-          <div>
-          <input type="reset" class="newsletter-button"> 
-          <button type="submit" class="newsletter-button">
-           
-            <span>inscrie</span>
-            <svg class="button-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-            </svg>
-          </button>
+            <input type="reset" class="newsletter-button"> 
+            <button type="submit" class="newsletter-button">
+              
+              <span>inscrie</span>
+              <svg class="button-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
     </div>
   </section>
+</div>
 
 
 

@@ -653,7 +653,7 @@ body {
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
   border: 1px solid rgba(59, 130, 246, 0.3);
   border-radius: 1.5rem;
-  padding: 3rem;
+  padding: 10rem;
   text-align: center;
 }
 
@@ -872,6 +872,7 @@ a:hover{
 } */
  .fifa_background{
   background-image: url(../public/fifa.jpg);
+  
   /* background-attachment: fixed;  */
   background-position : center;
   background-repeat: no-repeat;
@@ -879,7 +880,7 @@ a:hover{
   background-size: cover;
  }
  .pes_background{
-   background-image: url(../public/pes001.jpg);
+   background-image: url(../public/N.jpg);
   
   background-position : center;
   background-repeat: no-repeat;
@@ -889,7 +890,7 @@ a:hover{
 
  }
  .mortal_kombat_background{
-    background-image: url(../public/Mortal\ Kombat.jpg);
+    background-image: url(../public/);
   
   background-position : center;
   background-repeat: no-repeat;
@@ -903,3 +904,62 @@ a:hover{
   font-weight:300;
   font-style: normal;
  }
+ .img__teams{
+  float: left;
+  height: 650px;
+  width: 500px;
+ }
+ .pes__logo{
+  float: left;
+  height: 600px;
+  width: 400px;
+  clear:initial;
+ }
+ .sp-sf__background{
+  background-image: url(../public/moba-esport-tournament-arena-with-pink-neon-lights.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size: cover;
+ }
+ .background__chamo-S{
+   background-image: url(../public/champion-S.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size: cover;
+
+ }
+ .major__background{
+  background-image: url(../public/tactical-shooter-esport-tournament-with-purple-neo.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+ }
+ .champ-T__background{
+  background-image: url(../public/esport-tournament-championship-with-neon-blue-ligh.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .char__card{
+  background: rgba(15, 15, 25, 0.8);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+ }
+
+ .char__content{
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+
+ }
+ .char__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
