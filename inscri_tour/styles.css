@@ -663,6 +663,7 @@ body {
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 1rem;
+  padding-left: 50%;
 }
 
 .newsletter-description {
@@ -670,7 +671,7 @@ body {
   color: #a0a0a0;
   margin-bottom: 2rem;
   max-width: 600px;
-  margin-left: auto;
+  margin-left: 18%;
   margin-right: auto;
 }
 
@@ -899,15 +900,23 @@ a:hover{
 
  }
  .information{
+  /* clear: left;
+  float: right; */
+  padding-left: 45%;
+
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight:300;
   font-style: normal;
+  text-align:center ;
  }
  .img__teams{
   float: left;
+  clear: right;
   height: 650px;
   width: 500px;
+  padding: 0px;
+  margin: -120px;
  }
  .pes__logo{
   float: left;
@@ -963,3 +972,48 @@ a:hover{
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
+.background__gold_gamer{
+  background-image: url();
+}
+.background__valorant{
+  background-image: url(/public/Nails.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.background__league_of-legend{
+  background-image: url(../public/arcane\ wallpapers.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.background__gold_gamer{
+  background-image: url(../public/Champions\ Leauge\ new\ stadium.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background__old-X-gen{
+  background-image: url(../public/gamers001.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #contact__mesaage{
+  border: 200px;
+
+  height: 300px;
+  width: 200px;
+} */
+ .home__background{
+  background-image: url(https://i.pinimg.com/1200x/a2/80/37/a280379252ca902758915df7e1d317da.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ }
