@@ -1017,3 +1017,68 @@ a:hover{
   background-attachment: fixed;
   background-repeat: no-repeat;
  }
+ .teams__background{
+  background-image: url(https://i.pinimg.com/1200x/81/1b/a3/811ba323b269dd8d7d7cdc94cc328d97.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+ .news__background{
+  background-image: url(https://i.pinimg.com/1200x/71/6f/82/716f82261bae0a7e3b51479f972c9c19.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+ .players__cart{
+  border: 1px #0c0a0a;
+   display: flex;
+   justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+ 
+   font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  margin-top: 50px;
+
+
+ }
+ /* .teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+} */
+.tournament__background{
+background-image: url(https://i.pinimg.com/1200x/99/09/c9/9909c91ab00aed5b8a1c696860ff6a79.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+/* .count{
+  border-radius: 7%;
+} */
+
+/* .players__cart:hover{
+  color:#04118d;
+} */
+ /* .players__img{
+  display: flex;
+  height: 200px;
+  width: 200px;
+   margin-left: 12%;
+ } */
+
+ .player__1{
+border-radius: 10px rgb(2, 1, 1) solid;
+text-align: center;
+overflow: hidden;
+width: 200px;
+
+ }
+ .player__1:hover{
+  background-color: #1d9c32;
+ }
