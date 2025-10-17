@@ -881,7 +881,7 @@ a:hover{
   background-size: cover;
  }
  .pes_background{
-   background-image: url(../public/N.jpg);
+   background-image: url(https://i.pinimg.com/1200x/f6/34/89/f63489ec240faabf55a93c77b85ef48f.jpg);
   
   background-position : center;
   background-repeat: no-repeat;
@@ -891,7 +891,7 @@ a:hover{
 
  }
  .mortal_kombat_background{
-    background-image: url(../public/);
+    background-image: url(https://i.pinimg.com/1200x/70/d5/49/70d549d0da264a3dd4a8c3c6e435e61e.jpg);
   
   background-position : center;
   background-repeat: no-repeat;
@@ -999,6 +999,12 @@ a:hover{
 }
 .background__old-X-gen{
   background-image: url(../public/gamers001.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conter_background{
+  background-image: url(https://i.pinimg.com/1200x/4e/8a/02/4e8a021e3e46bf7d8496e360b4c7412a.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
