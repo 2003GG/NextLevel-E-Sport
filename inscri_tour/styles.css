@@ -1086,5 +1086,6 @@ width: 200px;
 
  }
  .player__1:hover{
-  background-color: #1d9c32;
+  background-color: #65d678;
+  transform: scale(1.2);
  }
